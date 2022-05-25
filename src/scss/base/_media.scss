@@ -6,6 +6,19 @@
 			}
 		}
 	}
+	.private{
+		&-body{
+			padding: 45px 0px 45px 30px;
+			&__text{
+				font-size: 14px;
+				margin: 0px 0px 30px 0px;
+			}
+			&__title{
+				font-size: 30px;
+				margin: 0px 0px 20px 0px;
+			}
+		}
+	}
 }
 @media (max-width:767.98px){
 	.header{
@@ -76,6 +89,28 @@
 			width: 36px;
 		}
 	}
+	.private{
+		&__column{
+			flex: 1 1 100%;
+			&:first-child{
+				display: none;
+			}
+		}
+		&-body{
+			&-content{
+				width: 100%;
+			}
+		}
+	}
+	.products{
+		margin: 0px 0px 20px 0px;
+		&-body{
+			flex-wrap: wrap;
+		}
+		&__column{
+			flex: 0 0 50%;
+		}
+	}
 }
 @media (max-width:574.98px){
 	.header{
@@ -96,5 +131,19 @@
 	}
 	.hamburger{
 		top: 33px;
+	}
+	.products{
+		&__column{
+			flex: 1 1 100%;
+			margin: 0px 0px 20px 0px;
+		}
+		&-item{
+			&__title{
+				max-width: 100%;
+			}
+			&__text{
+				max-width: 100%;
+			}
+		}
 	}
 }

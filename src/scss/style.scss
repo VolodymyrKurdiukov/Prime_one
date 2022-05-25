@@ -14,6 +14,12 @@
 	margin: 0 auto;
 }
 
+.ibg{background-position: center;background-size: cover;background-repeat: no-repeat;
+	img{display: none;}
+}
 @import "blocks/header";
+@import "blocks/private";
+@import "blocks/btn";
+@import "blocks/products";
 
 @import "base/media";

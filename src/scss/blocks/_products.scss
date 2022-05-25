@@ -1,0 +1,52 @@
+.products {
+	margin: 0px 0px 40px 0px;
+	&-body{
+		display: flex;
+	}
+	&__column {
+		flex: 0 0 25%;
+		margin: 0px 0px 40px 0px;
+	}
+}
+
+.products-item {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	&__img {
+		display: block;
+		padding: 0px 0px 98% 0px;
+		margin: 0px 0px 25px 0px;
+	}
+	&__title {
+		padding: 0px 10px 0px 0px;
+		max-width: 185px;
+		overflow: hidden;
+		font-family: 'AkzidenzGroteskBQCondensedBold';
+		font-size: 25px;
+		line-height: 25px;
+		text-align: left;
+		text-transform: uppercase;
+		letter-spacing: 2.5px;
+		margin: 0px 0px 36px 0px;
+	}
+
+	&__text {
+		padding: 0px 10px 0px 0px;
+		max-width: 190px;
+		flex: 1 1 auto;
+		font-size: 15px;
+		line-height: 25px;
+		text-align: left;
+		margin: 0px 0px 32px 0px;
+	}
+	&__btn{
+		display: inline-block;
+		text-decoration: none;
+		margin: 0px 0px 29px 0px;
+	}
+	&__link{
+		display: block;
+	}
+}
+
