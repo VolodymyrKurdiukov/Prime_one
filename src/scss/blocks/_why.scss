@@ -1,0 +1,53 @@
+.why {
+}
+.why-body {
+	display: flex;
+	background-color: #000;
+
+		&__column {
+			flex: 0 0 50%;
+		}
+		&__title{
+			padding: 57px 60px 57px 0px;
+			color: #ffffff;
+			font-family: 'AkzidenzGroteskBQCondensedBold';
+			font-size: 50px;
+			line-height: 25px;
+			text-align: right;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+		}
+
+		&__img {
+			height: 100%;
+		}
+}
+
+.why-content {
+	background-color: #ebebeb;
+	display: flex;
+	flex-wrap: wrap;
+		&__column {
+			flex: 0 0 50%;
+		}
+}
+.why-content-item {
+	display: flex;
+		&__icon {
+			display: flex;
+			width: 100px;
+			height: 100px;
+			background-color: #000000;
+			align-items: center;
+			justify-content: center;
+		}
+		&__descr{
+
+		}
+
+		&__title {
+		}
+
+		&__text {
+		}
+}
