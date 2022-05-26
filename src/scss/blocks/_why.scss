@@ -1,9 +1,13 @@
 .why {
+	margin: 0px 0px 80px 0px;
+	&-bottom{
+		padding: 50px 0px 0px 0px;
+		background-color: #ebebeb;
+	}
 }
 .why-body {
 	display: flex;
 	background-color: #000;
-
 		&__column {
 			flex: 0 0 50%;
 		}
@@ -24,11 +28,11 @@
 }
 
 .why-content {
-	background-color: #ebebeb;
 	display: flex;
 	flex-wrap: wrap;
 		&__column {
 			flex: 0 0 50%;
+			margin: 0px 0px 50px 0px;
 		}
 }
 .why-content-item {
@@ -40,14 +44,28 @@
 			background-color: #000000;
 			align-items: center;
 			justify-content: center;
+			
 		}
 		&__descr{
-
+			flex: 1 1 100%;
+			display: flex;
+			flex-direction: column;
+			padding: 0px 0px 0px 12px;
 		}
 
 		&__title {
+			flex: 1 1 auto;
+			font-family: 'AkzidenzGroteskBQCondensedBold';
+			font-size: 25px;
+			line-height: 25px;
+			text-align: left;
+			text-transform: uppercase;
+			letter-spacing: 2.5px;
 		}
 
 		&__text {
+			font-size: 15px;
+			line-height: 25px;
+			text-align: left;
 		}
 }

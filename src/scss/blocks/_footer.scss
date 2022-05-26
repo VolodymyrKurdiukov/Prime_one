@@ -1,0 +1,25 @@
+.footer {
+	padding: 34px 0px 27px 0px;
+	&-body{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__column {
+	}
+
+	&__privacy {
+		color: #4d4d4d;
+		font-size: 15px;
+		line-height: 25px;
+		text-align: left;
+	}
+
+	&__logo {
+		text-align: right;
+		width: 156px;
+		img{
+			width: 100%;
+		}
+	}
+}

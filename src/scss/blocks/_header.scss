@@ -20,12 +20,17 @@
 	justify-content: space-between;
 	&__order {
 		position: relative;
-		z-index: 10;
+		z-index: 9;
 		font-family: 'AkzidenzGroteskBQCondensedBold';
 		font-size: 15px;
 		line-height: 19px;
 		text-transform: uppercase;
 		text-decoration: underline;
+		&--menu{
+			position: fixed;
+			top: 34px;
+			right: 10px;
+		}
 	}
 }
 .header-top-lang {
@@ -55,11 +60,18 @@
 	}
 	&__logo {
 		position: relative;
-		z-index: 10;
+		z-index: 9;
 		margin: -45px 0px 0px 0px;
 		text-decoration: none;
 		display: block;
 		text-align: center;
+		&--menu{
+			position: fixed;
+			top: 80px;
+			left: 50%;
+			transform: translateX(-50%);
+			margin: 0;
+		}
 	}
 	&__text {
 		display: block;
